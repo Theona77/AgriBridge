@@ -1,5 +1,8 @@
 class TFirebaseAuthException implements Exception {
+  // The error code associated with the exception
   final String code;
+
+  // Constructor that takes on error code
   TFirebaseAuthException(this.code);
 
 
